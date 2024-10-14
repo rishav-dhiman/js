@@ -32,3 +32,17 @@ const myFunction = function(){
 }
 
 console.log(typeof id);
+
+
+
+//******************************* */
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "rishavdhiman"
+
+let anothername = myYoutubeName
+anothername = "rishucode"
+
+console.log(myYoutubeName);
+console.log(anothername);
